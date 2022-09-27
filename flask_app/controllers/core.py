@@ -40,8 +40,6 @@ def procesar_registro():
         "mail" : request.form["mail"],
         "contraseña" : hash_pass
     }
-    
-    print(data)
     User.save(data)
     flash(f"exito al agregar el usuario {data['nombre']}", "success")
     return redirect("/")
