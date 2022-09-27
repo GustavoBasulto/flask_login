@@ -1,1 +1,1 @@
-## CRUD flask con conexion a BBDD MySQL y organizacion MVC
+## Login flask validaciones y conexion MySql, organizacion MVC
